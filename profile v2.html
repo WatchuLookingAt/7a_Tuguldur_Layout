@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The best website</title>
+</head>
+<body>
+<img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/336902452_1197282664092997_1468811568793435050_n.jpg?stp=dst-jpg_p206x206&_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=efSZWFwEKW8AX8J8FNm&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQVSfIbHwSO6jMYxdsqhfFGEM-41gDurYAAgJN4tDDUzA&oe=645324C3" alt=""> <h1>Best Basketball 3x3 player</h1> <p>With S.Tuguldur, U.Orgil,Tenuun<p>
+
+
+
+
+    
+</body>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: rgb(103, 48, 145);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: rgb(116, 0, 225);}
+#About {background-color: rgb(148, 49, 223);}
+#Contact {background-color: rgb(144, 48, 218);}
+#WhyIstudiedIT {background-color: rgb(144, 36, 186);}
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'green')">Home</button>
+<button class="tablink" onclick="openPage('About', this, 'green')" id="defaultOpen">About Me</button>
+<button class="tablink" onclick="openPage('Contact', this, 'green')">Contact</button>
+<button class="tablink" onclick="openPage('Why I studied IT', this, 'green')">Why I studied IT</button>
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Well u have nothing to see here  </p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  </p> "First in 2022 my school spartic i won 3 medals... ya i know im good right.
+      Second my schools greatest basketball team was 1% of winnig the gold medal and we got silver medal but we still the best"</p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>My Facebook: https://www.facebook.com/tuguldur.bilguun.16/</p>
+</div>
+
+<div id="Why I studied IT" class="tabcontent">
+  <h3>Why I studied IT</h3>
+  <p>I Studied IT": 
+    When I was young, I discovered my passion for creating things on computers. Whether it was designing a website or developing a simple game, I loved the process of bringing my ideas to life through technology. This led me to explore the world of IT and computer science, which fascinated me even more.
+    
+    As I learned more about the field, I realized the incredible potential of technology to change the world and make people's lives better. I saw how IT could be used to solve complex problems and improve efficiency in various industries. I knew that by studying IT, I could contribute to this transformation and make a positive impact on society.
+    
+    Another reason why I decided to study IT was because of my parents. They recognized my interest in computers and encouraged me to pursue it further by enrolling in an IT school. With their support, I was able to gain the knowledge and skills needed to excel in this field.
+    
+    Overall, studying IT has been an incredibly rewarding experience for me. It has allowed me to combine my passion for technology with my desire to make a difference in the world. I look forward to continuing to explore and contribute to the ever-evolving field of IT.
+    
+    </p>
+</div>
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html>
